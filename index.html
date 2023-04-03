@@ -397,13 +397,26 @@
           </li>
           <li class="footer-item-icon item">
             <a class="footer-link-icon link" href="#">
-              <svg class="foo-svg" width="24px" height="22px">
+              <svg class="footer-svg" width="24px" height="22px">
                 <use href="./images/icons/symbol-defs11.svg#icon-linkedin""></use>
                 </svg> 
             </a>
           </li>
         </ul>
         </div>
+
+         <div class="footer-subscribe ">
+                <h3 class="footer-media-title">Subscribe</h3>
+                <form class="footer-input">
+                    <input type="email" name="email" placeholder="E-mail" class="footer-input-email">
+                    <button type="submit" class="subscribe-btn">Subscribe
+                        <svg width="24" height="24" class="footer-plane-icon">
+                            <use href="./images/icons/symbol-defs1.svg#icon-subscribe"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+
       </div>
     </footer>
 
@@ -445,13 +458,23 @@
       </div>  
       </div>
 
-       <div class="modal-field">
+       <div class="textarea-wraper">
        <label for="user-comment" class="modal-label-text">Comment</label>
        <textarea class="modal-textarea" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
        </div>
-       <!-- <label class="checkbox-label">
-        <input class="checkbox-label" type="checkbox" name="checkbox">I accept the terms and conditions of the Privacy Policy
-       </label> -->
+
+
+       <div class="checkbox-wraper">
+        <input type="checkbox" name="user-privacy" class="modal-check visually-hidden" id="privacy" value="true">
+         <label for="privacy" class="check-text"><span>
+           <svg class="check-icon" width="10" height="8">
+                <use href="./images/icons/symbol-defs1.svg#icon-check"></use>
+              </svg>
+
+         </span> I accept the terms and conditions of the<a href=""class="privacy-link">Privacy Policy</a></label>
+       </div>
+
+
        <button type="submit" class="modal-button-send">Send</button>
       </form>
       </div>
